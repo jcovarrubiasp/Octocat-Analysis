@@ -1,3 +1,3 @@
-ocotcat <- readLines ("https://api.github.com/ocotocat")
+octocat <- readLines ("https://api.github.com/octocat")
 
 writeLines(text = octocat, con = "octocat.txt")
